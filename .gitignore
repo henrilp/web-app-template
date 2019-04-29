@@ -12,6 +12,7 @@
 /build
 
 # misc
+git_Henri.txt
 .DS_Store
 .env.local
 .env.development.local
