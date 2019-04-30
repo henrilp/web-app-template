@@ -6,6 +6,19 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
+//Database connection
+// app.use(function(req, res, next){
+// 	res.locals.connection = mysql.createConnection({
+// 		host     : 'localhost',
+// 		user     : 'root',
+// 		password : '',
+// 		database : 'test'
+// 	});
+// 	res.locals.connection.connect();
+// 	next();
+// });
+
 // default route
 app.get('/', function (req, res) {
     return res.send({ error: true, message: 'hello' })
