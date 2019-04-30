@@ -21,6 +21,36 @@ export default class PublicMenu extends Component {
             Home
           </Menu.Item>
         </Link>
+        <Link to="/Categories">
+            <Menu.Item active={(this.props.location.pathname == "/Categories")}>
+              Categories
+            </Menu.Item>
+           </Link>
+           <Link to="/ventesflash">
+            <Menu.Item active={(this.props.location.pathname == "/ventesflash")}>
+              Ventes Flash
+            </Menu.Item>
+           </Link>
+            <Link to="/vendre">
+            <Menu.Item active={(this.props.location.pathname == "/vendre")}>
+              Vendre
+            </Menu.Item>
+           </Link>
+            <Link to="/votrecompte">
+            <Menu.Item active={(this.props.location.pathname == "/votrecompte")}>
+              Votre Compte
+            </Menu.Item>
+           </Link>
+            <Link to="/panier">
+            <Menu.Item active={(this.props.location.pathname == "/panier")}>
+              Panier
+            </Menu.Item>
+           </Link>
+            <Link to="/admin">
+            <Menu.Item active={(this.props.location.pathname == "/admin")}>
+              Admin
+            </Menu.Item>
+           </Link>
 
         <Menu.Menu position="right">
           <Link to="/login">
@@ -33,6 +63,8 @@ export default class PublicMenu extends Component {
               Sign Up
             </Menu.Item>
           </Link>
+           
+
         </Menu.Menu>
       </Menu>
     )
