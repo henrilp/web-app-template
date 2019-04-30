@@ -2,7 +2,7 @@
 CONTEXTE D'INSTALLATION :
 
 - version de node.js à jour
-- un IDE correct (genre Atom.io)
+- un IDE (Sublime Text)
 
 INSTALLATION (en ligne de commande) :
 
