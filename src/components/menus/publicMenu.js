@@ -15,7 +15,7 @@ export default class PublicMenu extends Component {
 
   render(){
     return(
-      <Menu style={{margin:0}}>
+      <Menu style={{margin:0, paddingLeft:"10rem", paddingRight:"10rem"}}>
         <Link to="/">
           <Menu.Item active={(this.props.location.pathname == "/")}>
             Home
@@ -29,7 +29,7 @@ export default class PublicMenu extends Component {
             </Menu.Item>
           </Link>
           <Link to="/signup">
-            <Menu.Item color="olive" active={(this.props.location.pathname == "/signup")}>
+            <Menu.Item active={(this.props.location.pathname == "/signup")}>
               Sign Up
             </Menu.Item>
           </Link>
