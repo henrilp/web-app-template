@@ -63,7 +63,9 @@ export default class Home extends Component {
           </Grid.Row>
           <Grid.Row>
             <Grid.Column>
-              <NewProductForm/>
+            <Segment color="green" loading={!this.state.loaded}
+              style={{minHeight:"10rem",diplay:"flex",flexDirection:"row"}}
+            >
             </Grid.Column>
           </Grid.Row>
         </Grid>
